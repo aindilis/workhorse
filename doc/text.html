@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="WordPress 3.8.8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>  Text Analysis, Text Mining, and Information Retrieval Software</title>
+<link rel="dns-prefetch" href="/wp-content/themes/kdnuggets/style.css">
+<link rel="dns-prefetch" href="/wp-content/themes/kdnuggets/js/jquery-1.9.1.min.js">
+<link rel="dns-prefetch" href="/aps/all.js">
+<link rel="dns-prefetch" href="//platform.twitter.com">
+<link rel="shortcut icon" href="/wp-content/themes/kdnuggets/images/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="KDnuggets: Analytics, Big Data, Data Mining and Data Science Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="KDnuggets &raquo; Feed" href="http://www.kdnuggets.com/feed">
+<link rel="alternate" type="application/rss+xml" title="KDnuggets &raquo; Comments Feed" href="http://www.kdnuggets.com/comments/feed">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.kdnuggets.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.kdnuggets.com/wp-includes/wlwmanifest.xml">
+<link rel="prev" title="Rules-based Software for Classification" href="http://www.kdnuggets.com/software/classification-rules.html">
+<link rel="next" title="Companies in Analytics, Data Mining, and Data Science" href="http://www.kdnuggets.com/companies/index.html">
+<link rel="canonical" href="http://www.kdnuggets.com/software/text.html">
+<link rel="shortlink" href="http://www.kdnuggets.com/?p=219">
+<link type="text/css" rel="stylesheet" href="/wp-content/themes/kdnuggets/style.css" media="screen">
+<style type="text/css" media="all">/*<![CDATA[ */
+.emergencyn{padding:10px 17px 0 0; float:right;}
+.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+/* ]]>*/</style>
+<script type="text/javascript" src="/wp-content/themes/kdnuggets/js/jquery-1.9.1.min.js" ></script>
+<script type="text/javascript" src="/aps/all.js"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<script type="text/javascript">//<![CDATA[
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-361129-1'], ['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+//]]></script>
+</head>
+ 
+<body class="page page-id-219 page-child parent-pageid-59 page-template-default">
+  <div class="main_wrapper">
+    <div id="wrapper">
+      <div id="header" style="position: fixed; align: center; z-index: 99999;">
+        <div class="logo">
+          <h1><a href="/">KDnuggets</a></h1>
+        </div>
+        <div id="header_log">
+          <b>Data Mining, Analytics, Big Data, and Data Science</b>
+ <br>Subscribe to <a href="/news/subscribe.html" target="_blank"><b>KDnuggets News</b></a> &nbsp;|
+ Follow <a href="http://twitter.com/kdnuggets"><img src="/images/twit_22.png" width=22 height=22 style="vertical-align: bottom" alt="Twitter"> @KDnuggets</a>&nbsp;
+ <a href="http://facebook.com/kdnuggets" target="_blank"><img src="http://www.kdnuggets.com/images/fb_22.png" width=22 height=22 style="vertical-align: bottom" alt="Facebook"></a> &nbsp;
+ <a href="http://www.linkedin.com/groups/KDnuggets-Analytics-Data-Mining-54257" target="_blank"><img src="http://www.kdnuggets.com/images/in_22.png" width=22 height=22 style="vertical-align: bottom" alt="LinkedIn"></a> &nbsp; |
+ <a href="http://www.kdnuggets.com/gps.html"><b>Contact</b></a>
+        </div>
+        <div class="search">
+          <form method="get" id="searchform" action="http://www.kdnuggets.com/">
+	  <input value="" name="s" id="s" placeholder="search KDnuggets" type="text">
+	  <input value="Search" type="submit"></form>
+        </div>
+        <div class="navigation"><ul id="menu-menu" class="menu"><li id="menu-item-1070" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1070"><a href="/software/index.html">Data Mining Software</a></li>
+<li id="menu-item-13756" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13756"><a href="/news/index.html">News</a></li>
+<li id="menu-item-13364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13364"><a href="/jobs/index.html">Jobs</a></li>
+<li id="menu-item-13371" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13371"><a href="/academic/index.html">Academic</a></li>
+<li id="menu-item-13145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13145"><a href="http://www.kdnuggets.com/companies/index.html">Companies</a></li>
+<li id="menu-item-13366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13366"><a href="http://www.kdnuggets.com/courses/index.html">Courses</a></li>
+<li id="menu-item-1499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1499"><a href="http://www.kdnuggets.com/datasets/index.html">Datasets</a></li>
+<li id="menu-item-13368" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13368"><a href="/data_mining_course/index.html">Data Mining Course</a></li>
+<li id="menu-item-14286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14286"><a href="http://www.kdnuggets.com/education/index.html">Education</a></li>
+<li id="menu-item-14752" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14752"><a href="/meetings/index.html">Meetings</a></li>
+<li id="menu-item-13367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13367"><a href="/polls/index.html">Polls</a></li>
+<li id="menu-item-13721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13721"><a href="/webcasts/index.html">Webcasts</a></li>
+</ul></div>      </div> <!--#header end-->
+      <div id="spacer" style="height: 100px;">
+         &nbsp;
+      </div>
+      <div id="content_wrapper">
+        <div id="ad_wrapper">
+             <script type="text/javascript">kpath = 'http://www.kdnuggets.com/'; aw9();</script>
+        </div>
+
+    <div class="breadcumb">
+       <br />
+<a href="/">KDnuggets Home</a> &raquo; <a href="/software/index.html">Software</a> &raquo; Text Analysis, Text Mining and Information Retrieval    </div>
+<div id="sidebar-left">
+<table>
+  <tr>
+    <td width=300 valign=top align=center cellpadding="0" cellspacing="0"><!-- tabm-left -->
+      <table class="latn" cellpadding=3>
+        <tr><th class="latn"><a href="/news/index.html"><i><font color=red>Latest</font> News</i></a></th></tr>
+        <tr><td align=left> 
+            <aside class='widget slposts-widget'><div class='slposts-container slposts-ulist-container slp-instance-3'><ul class='slposts-wrapper slposts-ulist nav nav-tabs nav-stacked'><li class='slposts-ulist-litem'><div class='slposts-caption'>&rarr; <a href='http://www.kdnuggets.com/2015/06/top-news-week-jun-7.html'>Top stories for Jun 7-13: Top 20 Python Machine Learning Projects; Which Big Data, Data Mining, Data Science Tools go together?</a></div></li><li class='slposts-ulist-litem'><div class='slposts-caption'>&rarr; <a href='http://www.kdnuggets.com/2015/06/scala-bythebay-big-data-scala-august.html'>Scala By the Bay (Aug 13-16) + Big Data Scala (Aug 16-18), Bay Area</a></div></li><li class='slposts-ulist-litem'><div class='slposts-caption'>&rarr; <a href='http://www.kdnuggets.com/2015/06/analytics-career-right-for-you.html'>Is Analytics Career Right for You?</a></div></li><li class='slposts-ulist-litem'><div class='slposts-caption'>&rarr; <a href='http://www.kdnuggets.com/2015/06/cognitive-computing-solving-big-data-problem.html'>Cognitive Computing: Solving the Big Data Problem?</a></div></li><li class='slposts-ulist-litem'><div class='slposts-caption'>&rarr; <a href='http://www.kdnuggets.com/2015/06/big-data-developer-conference-boston-aug-10-12.html'>Big Data Developer Conference and Training, Boston, Aug 10-12</a></div></li></ul></div></aside> 
+       </td></tr>
+      </table>
+      <br><script type="text/javascript"> ew9();</script>
+      <br><script type="text/javascript"> sbm();</script>
+    </td> <!-- tabm-left end -->
+  </tr>
+</table>
+
+</div>
+<div id="content" class="single">
+                <h1 id="title">Text Analysis, Text Mining, and Information Retrieval Software</h1>
+            <div class="page_content">
+<div class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook"></a><span class="addthis_separator">&nbsp;</span>
+<a class="addthis_button_linkedin"></a><span class="addthis_separator">&nbsp;</span>
+<a class="addthis_button_google_plusone"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="kdnuggets">Tweet</a>
+<script async type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=gpsaddthis"></script>
+<script async type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+</div>                <div id="post-219" class="post-219 page type-page status-publish hentry" class="post">
+                    <hr align=center size=1 width=500 color="#999999"> 
+<a href="#commercial">Commercial</a> | <a href="#on-line">online</a> | <a href="#free">free</a>
+<br /><br />
+<script type="text/javascript" src="/aps/wor_sof_tex.js"></script>
+<br />
+<h3>On-line Text Mining / Text Analytics Tools</h3>
+<br />
+<ul class="three_ul">
+<li><!-- added=2010-1-12 --><a href="http://ranks.nl/">Ranks.nl</a>, keyword analysis and webmaster tools.
+<li><!--added=2005-1-25--><a href="http://www.clusty.com/">Vivisimo/Clusty</a> web search and text clustering engine.
+</ul>
+<br /><br /><br />
+<hr align=center width=468>
+<div align=center>
+<a href="http://ad.doubleclick.net/ddm/clk/288877570;114239264;t?http://www.sas.com/apps/sim/redirect.jsp?detail=SIM136202-22165" onclick="_gaq.push(['_trackPageview','/zf/f-sas-y15-t.sof_tex']);" target=_blank>
+<b><u>Free trial: Hadoop with SAS&reg; Analytics.</u></b></a>
+<img src="http://ad.doubleclick.net/ad/N6626.289580.KDNUGGETS.COM/B8386429.114239264;sz=1x1;ord=150519?" border=0 width=1 height=1 alt="">
+<img src="/aps/f-sas-y15.sof_tex.gif" width=1 height=1 border=0 alt=""><br />
+<a href="http://ad.doubleclick.net/jump/N6626.289580.KDNUGGETS.COM/B8386429.114241423;sz=468x60;ord=140101?"><img src="http://ad.doubleclick.net/ad/N6626.289580.KDNUGGETS.COM/B8386429.114241423;sz=468x60;ord=150519?" border=0 width=468 height=60 alt="SAS Data Management"></a>
+</div>
+<br />
+<ul class="three_ul">
+<li><!-- added=2010-1-12 --><a href="http://www.wordle.net/">Wordle</a>, a tool for generating "word clouds" from text that you provide.
+</ul>
+<p> <a name="commercial"></a>
+<h3>Commercial Text Mining / Text Analytics Software</h3>
+<br />
+<ul class="three_ul">
+<li><!--added=2006-9-25--><a href="http://www.activepoint.com/">ActivePoint</a>, offering natural language processing and smart online catalogues, based contextual search and ActivePoint's TX5(TM) Discovery Engine.
+<li><!-- added=2012-8-14 --><a href="http://www.aiaioo.com/">Aiaioo Labs</a>, offering APIs for intention analysis, sentiment analysis and event analysis. <a href="http://aiaioo.com/demos/demo_use_case.html" target="_blank">Aiaioo online demo.</a>
+<li><!-- added=2010-1-12 --><a href="http://www.image-zafar.com/english/index_alceste.htm">Alceste</a>, a software for the automatic analysis of textual data (open questions, literature, articles, etc.)
+<li><!-- added=2013-3-5 --><a href="http://www.alchemyapi.com">AlchemyAPI</a>, the world's leading text analysis service, processing billions of documents every month.
+<li><!-- added=2013-6-6 --><a href="http://www.odintext.com/">Anderson Analytics OdinText</a>, complete text analytics software platform for consumer insights and customer service professionals.
+<li><!-- added=2012-9-14 --><a href="http://www.angoss.com/predictive-analytics-software/products/text-analytics">Angoss Text Analytics</a>, part of KnowledgeStudio, allows users to merge the output of unstructured, text-based analytics with structured data to perform data mining and predictive analytics.
+<li><!-- added=2014-2-3 --> <a href="http://www.goascribe.com/">Ascribe</a>, offering a unique hybrid technology approach, blending natural language processing, machine learning and semi-automated coding tools, since 1999.
+<li><!--added=2006-10-12--><a href="http://www.attensity.com/">Attensity</a>, offers a complete suite of Text Analytic applications, including the ability to extract "who", "what", "where", "when" and "why" facts and then drill down to understand people, places and events and how they are related.
+<li><!--added=2006-8-2--><a href="http://www.basistech.com/">Basis Technology</a>, provides natural language processing technology for the analysis of unstructured multilingual text.
+<li><!-- added=2009-5-15 --><a href="http://www.clarabridge.com/">Clarabridge</a>, text mining software providing end-to-end solution for customer experience professionals wishing to transform customer feedback for marketing, service and product improvements.
+<li><!--added=2001-6-18--><a href="http://www.clearforest.com/">ClearForest</a>, tools for analysis and visualization of your document collection. <a href="/aps/bt4-a.sof_tex.re.html"><img border=0 src="http://www.kdnuggets.com/aps/bt4-a.sof_tex.gif" width=1 height=1 alt=""></a>
+<li><!-- added=2011-12-29 --><a href="http://www.cluster-text.com">Clustify</a>, groups related documents into clusters, providing an overview of the document set and aiding with categorization.
+<li><!--added=2004-3-23--><a href="http://comparesuite.com/">Compare Suite</a>, compares texts by keywords, highlights common and unique keywords.
+<li><!--added=2005-8-17--><a href="http://www.connexor.com/">Connexor Machine</a>, discovers the grammatical and semantic information of natural language.
+<li><!--added=2001-1-11--><a href="http://www.copernic.com/">Copernic Summarizer</a>, can read and summarize document and Web page text contents in many languages from various applications
+<li><!--added=2008-9-8--><a href="http://www.crossminder.com">Crossminder</a>, natural language processing and text analytics (including cross-lingual text mining).
+<li><!-- added=2014-5-31 --> 
+<a href="http://datarpm.com/">DataRPM</a>, offering Natural Language Question Answering and Automatic Data Modeling.
+<li><!-- added=2011-5-9 --><a href="http://dhiti.com/api/">Dhiti</a>, providing an API for text-mining; can work on a document collection and mine out topics and concepts in realtime.
+<li><!-- added=2012-11-21 --><a href="http://discovertext.com/">DiscoverText</a>, a cloud-based text analytics solution with many powerful features, including an ActiveLearning machine classification engine. Provides valuable insights about employees, customers, products, news, and citizens.
+<li><a href="http://www.dtsearch.com/">dtSearch</a>, for indexing, searching, and retrieving free-form text files.
+<li><!--added=2008-9-12--><a href="http://www.eaagle.com/">Eaagle text mining software</a>, enables you to rapidly analyze large volumes of unstructured text, create reports and easily communicate your findings.
+<li><!--added=2003-8-8--><a href="http://www.enkata.com/">Enkata</a>, providing a range of enterprise-level solutions for text analysis.
+<li><!--added=2004-10-8--><a href="http://www.entrieva.com/">Entrieva</a>, patented technology indexes, categorizes and organizes unstructured text from virtually any source.
+<li><!--added=2007-4-13--><a href="http://www.expertsystem.net/">Expert System</a>, using proprietary COGITO platform for the semantic comprehension of the language to do knowledge management of unstructured information.
+<li><!--added=2002-12-2--><a href="http://www.aks-labs.com/products/files_search_assistant.htm">Files Search Assistant</a>, quick and efficient search within text documents.
+<li><!-- added=2013-1-28 --><a href="http://www.ibm.com/software/data/infosphere/warehouse/enterprise.html">IBM InfoSphere Warehouse Enterprise Edition</a>, including advanced analytics, OLAP, data mining and text analytics.
+<li><!-- added=2013-1-28 --><a href="http://www-01.ibm.com/software/analytics/spss/">IBM SPSS Predictive Analytics</a> suite for data and text mining.
+<li><!-- added=2013-8-5 --><a href="http://www.ikanow.com/">IKANOW Infinit.e</a>, all-in-one big data analytics solution for harvesting and analyzing both structured and unstructured data, including social media data from Twitter, Facebook, and Google+.
+<li><!--added=2005-5-24--><a href="http://www.intellexer.com/">Intellexer</a>, natural language searching technologies for developing knowledge management tools, document comparison software and document summarization software, custom built search engines and other intelligent software.
+<li><!-- added=2010-8-30 --><a href="http://www.isys-search.com/">ISYS Search Software</a>, an enterprise search software supplier specializing in embedded search, text extraction, federated access solutions and text analytics.
+<li><!-- added=2009-3-20 --><a href="http://www.ixreveal.com/">IxReveal</a>, offering uReveal "plug-in" advanced analytic platform and uReka! desktop "search and analyze" consumer product, based on patented text analytics methods.
+<li><!-- added=2012-9-17 --><a href="http://kbsportal.com/">KBSPortal</a>, offers natural language processing as SaaS web service.
+<li><!-- added=2014-6-5 --> <a href="http://knime.com/">
+KNIME</a>, an open source analytics platform which offers extensions for text analysis currently including Stanford NLP, Palladin, and Linguamatics.
+<li><!--added=2004-9-20--><a href="http://www.scienceplus.nl/">Kwalitan 5 for Windows</a>, uses codes for text fragments to facilitate textual search, display overviews, build hierarchical trees and more.
+<li><!-- added=2010-3-18 --><a href="http://www.kxen.com/index.php?option=com_content&amp;task=view&amp;id=213&amp;Itemid=375">KXEN Text Coder (KTC)</a>, text analytics solution for automatically preparing and transforming unstructured text attributes into a structured representation for use in KXEN Analytic Framework.
+<li><!-- added=2011-6-7 --><a href="http://www.langsoft.ch/refer.htm">Langsoft question-answering and content recognition/text attribution software</a>, evaluation copy available.
+<li><!-- added=2010-7-28 --><a href="http://www.lexalytics.com/">Lexalytics</a>, provides enterprise and hosted text analytics software to transform unstructured text into structured data.
+<li><!-- added=2001-4-24--><a href="http://www.leximancer.com/">Leximancer</a>, makes automatic concept maps of text data collections
+<li><!-- added=2001-9-7--><a href="http://www.lextek.com/">Lextek Onix Toolkit</a>, for adding high performance full-text indexing search and retrieval to applications.
+<li><!-- added=2001-9-7--><a href="http://www.lextek.com/">Lextek Profiling Engine</a>, for automatically classifying, routing, and filtering electronic text according to user defined profiles.
+<li><!--added=2008-6-16--><a href="http://www.linguamatics.com">Linguamatics</a>, offering Natural language processing (NLP), search engine approach, intuitive reporting, and domain knowledge plug-in.
+<li><!-- added=2013-9-18 --><a href="http://www.luminoso.com/">Luminoso</a>, ontology-free text analytics solution, led by some of the top research scientists at the MIT Media Lab.
+<li><!--added=2003-8-23--><a href="http://www.megaputer.com/">Megaputer Text Analyst</a>, offers semantic analysis of free-form texts, summarization, clustering, navigation, and natural language retrieval with search dynamic refocusing.
+<li> <a href="http://www.datawatch.com/">Monarch</a>, data access and analysis tool that lets you transform any report into a live database.
+<li><!-- added=2013-10-9 --><a href="http://www.netowl.com/">NetOwl</a> (from SRA International), multilingual text and entity analytics: extracts entities, links, and events, performs name matching and identity resolution, assigns latitude/longitude to geographical references, translates names in foreign languages, and performs sentiment analysis.
+<li><!--added=2006-9-25--><a href="http://newsfeedresearcher.com/">NewsFeed Researcher</a>, presents live multi-document summarization tool, with automatically-generated RSS news feeds.
+<li><!--added=2006-8-28--><a href="http://www.nstein.com/">Nstein</a>, Enterprise Search and Information Access Technologies; On your public website, Nstein will guide your customers to the most relevant information more quickly than other solutions.
+<li><!-- added=2014-8-29 --> 
+<a href="http://www.ontotext.com/">Ontotext</a> provides semantic technology blending text mining, inference and a graph database to deliver optimized knowledge management, search and semantic analysis solutions.
+<li><!-- added=2013-7-12 --><a href="http://www.picturesafe.de/en/products/products-semantic-analysis/">Picturesafe</a> semantic system categorizes and analyzes all this information completely automatically, recognizes content and similarities between different media, and dramatically speeding up journalistic and publishing research.
+<li><!-- added=2013-11-2 --><a href="http://plagiarismsoftware.net/">Plagiarism Software</a>, free online check for plagiarism.
+<li><!-- added=2014-6-19 --> 
+<a href="http://www.polyvista.com/">PolyVista</a>, advanced listening, filtering, and analysis software and services to make sense of everything said about your company.
+<li><!--added=2006-9-25--><a href="http://www.powertextsolutions.com/">Power Text Solutions</a>, extensive capabilities for "free text" analysis, offering commercial products and custom applications.
+<li><!--added=2006-6-10--><a href="http://www.oleandersolutions.com/readabilitystudio.html">Readability Studio</a>, offers tools for determining text readability levels.
+<li><!-- added=2002-10-21--><a href="http://www.recommind.com/">Recommind MindServer</a>, uses PLSA (Probablistic Latent Semantic Analysis) for accurate retrieval and categorization of texts.
+<li><!--added=2003-5-22--><a href="http://www.sas.com/technologies/analytics/datamining/textminer/">SAS Text Miner</a>, provides a rich suite of text processing and analysis tools.
+<li><!-- added=2009-12-14 --><a href="http://www.janyainc.com/">Semantex from Janya Inc.</a>, enterprise-class information extraction system, detecting entities, attributes, relationships and events.
+<li><!-- added=2013-9-11 --><a href="http://www.skyttle.com/">Skyttle API</a>, a SaaS platform for sentiment analysis and keyword extraction. Supports English, French, German and Russian. See online demo at <a href="http://www.skyttle.com/demoin" target="_blank">www.skyttle.com/demoin</a>.
+<li><!--added=2006-1-26--><a href="http://www.fit.fraunhofer.de/projekte/swapit/index_en.xml">SWAPit, Fraunhofer-FIT's text- and data analysis tool</a> (updated version of DocMINER), offers visual text mining and retrieval capabilities, including search, term statistics, and summary; visualises semantic relationships among text documents.
+<li><!--added=2006-12-8--><a href="http://www.temis.com">TEMIS Luxid&reg;</a>, an Information Discovery solution serving the Information Intelligence needs of business corporations.
+<li><!--added=2003-1-8--><a href="http://www.landcglobal.com/">TeSSI&reg;</a>, software components that perform semantic indexing, semantic searching, coding and information extraction on biomedical literature.
+<li><!--added=2002-1-14--><a href="http://www.textanalysis.info/">Text Analysis Info</a>, offering software and links for Text Analysis and more
+<li><!--added=2004-3-22--><a href="http://www.textalyser.net">Textalyser</a>, online text analysis tool, providing detailed text statistics
+<li><!-- added=2014-10-8 --> <a href="http://textalytics.com/home">
+Textalytics</a>, a suite of text analytics APIs for semantic tagging of multilingual/multimedia content (opinion/sentiment/reputation analysis, classification, information extraction, etc.), with free usage up to 1M words/month.
+<li><!--added=2008-7-23--><a href="http://www.datamystic.com/">TextPipe Pro</a>, text conversion, extraction and manipulation workbench.
+<li><!--added=2001-9-3--><a href="http://www.textquest.de">TextQuest</a>, text analysis software
+<li><!-- added=2012-9-17 --><a href="http://treparel.com/">Treparel KMX Text Analytics</a> delivers fast and powerful search, clear visual insights and advanced analytics for information professionals, information consumers and in OEM partnerships.
+<li><a href="http://www.readware.com/">Readware Information Processor</a> for Intranets and the Internet, classifies documents by content; provides literal and conceptual search; includes a ConceptBase with English, French or German lexicons.
+<li><a href="http://www.xanalys.com/">Quenza</a>, automatically extracts entities and cross references from free text documents and builds a database for subsequent analysis.
+<li><!--added=2001-4-24--><a href="http://www.theVantagePoint.com/">VantagePoint</a> provides a variety of interactive graphical views and analysis tools with powerful capabilities to discover knowledge from text databases.
+<li><!-- added=2015-4-10 --> <a href="http://www.textanalysis.com/">
+VisualText</a>, a comprehensive text analytics development environment, with NLP++ language, hierarchical/graphical knowledge base, automated rule generation, single parse tree, in a multi-pass, multi-paradigm framework.
+<li><!-- added=2012-2-23 --><a href="http://www.vpinstitute.org/pages/vpimarketplace.html">VP Student Edition</a> powerful text-mining and visualization tool for discovering knowledge in search results from science literature and other field-structured text databases.
+<li><!-- added=2010-9-22 --><a href="http://www.xanalys.com/solutions/indexer.html">Xanalys Indexer</a>, an information extraction and data mining library aimed at extracting entities, and particularly the relationships between them, from plain text.
+<li><!--added=2005-6-15--><a href="http://www.provalisresearch.com/wordstat/wordstat.html">Wordstat</a>, analysis module for textual information such as responses to open-ended questions, interviews, etc.
+</ul>
+<p> Many packages above offer free or limited trial versions.
+<a name="free"></a><h3>Free and Open-Source Text Mining / Text Analytics Software</h3>
+<br />
+<ul class="three_ul">
+<li><!-- added=2014-7-19 --> 
+<a href="http://www.datasciencetoolkit.org/">
+Data Science Toolkit</a>, includes geo, text, NLP, and sentiment analysis tools.
+<li><!-- added=2013-9-13 --><a href="http://www.datumbox.com/">Datumbox</a>, a free API and many functions for Sentiment Analysis, Language Detection, Topic Classification and easily building intelligent apps.
+<li><!-- added=2013-9-11 --><a href="http://nlp.lsi.upc.edu/freeling/">FreeLing</a>, an open source language analysis tool suite, GNU GPL.
+<li><!--added=2008-9-10--><a href="http://gate.ac.uk/">GATE</a>, a leading open-source toolkit for Text Mining, with a free open source framework (or SDK) and graphical development environment.
+<li><!-- added=2013-4-25 --><a href="http://www.grammarcheck.net/">Grammarcheck.net</a>, a free online grammar check, for English.
+<li><!-- added=2013-8-5 --><a href="http://www.ikanow.com/community-edition/">IKANOW Infinit.e open source Community Edition</a>, a scalable framework for collecting, storing, processing, retrieving, analyzing, and visualizing unstructured documents and structured records.
+<li><!--added=2003-1-6--><a href="http://www.intext.de/">INTEXT</a>, MS-DOS version of TextQuest, in public domain since Jan 2, 2003.
+<li><!--added=2008-9-19--><a href="http://alias-i.com/lingpipe/">LingPipe</a> is a suite of Java libraries for the linguistic analysis of human language.
+<li><!--added=2008-9-5--><a href="http://www.opencalais.com/">Open Calais</a>, an open-source toolkit for including semantic functionality within your blog, content management system, website or application.
+<li><!-- added=2009-3-27 --><a href="http://rapid-i.com/content/view/73/148/">RapidMiner Text Mining</a>.
+<li><!-- added=2011-7-13 --><a href="http://reverb.cs.washington.edu/">ReVerb: Open Information Extraction Software</a>, extracts binary relationships like high-in (winter squash, vitamin c) without requiring any relation-specific training data.
+<li><!--added=2003-1-2--><a href="http://www.cs.uic.edu/~liub/S-EM/S-EM-download.html">S-EM (Spy-EM)</a>, a text classification system that learns from positive and unlabeled examples.
+<li><!--added=2006-10-5--><a href="http://knowledgesearch.org/">The Semantic Indexing Project</a>, offering open source tools, including Semantic Engine - a standalone indexer/search application.
+<li><!-- added=2015-5-19 --><a href="http://sourceforge.net/projects/txm/">TXM - Unicode, XML, TEI text/corpus analysis platform</a>, including graphical client, based on the CQP search engine and R environment.
+</ul>
+<br />
+<h3 class="rel_h3">Related</h3>
+<ul>
+<li> <a href="/websites/text-mining.html">Text-Mining sites</a> 
+</ul>
+<!-- contend -->
+<!-- You can start editing here. -->
+<div id="comment_wrapper">
+	
+							<!-- If comments are closed. -->
+			
+	<p></p>
+	</div>                </div>
+            </div>
+                <!--#content end--></div>
+
+<div id="sidebar">
+<script type="text/javascript"> kpath = 'http://www.kdnuggets.com/'; rw9();</script>
+</div>    <div class="breadcumb">
+       <br />
+<a href="/">KDnuggets Home</a> &raquo; <a href="/software/index.html">Software</a> &raquo; Text Analysis, Text Mining and Information Retrieval    </div>
+<!--#content_wrapper end--></div>
+<br/>
+<div id="footer">
+<br>&copy; 2015 KDnuggets. | <a href="/about/index.html">About KDnuggets</a>
+</div>
+<div class="clear"><!--blank--></div></div>
+<link rel='stylesheet' id='slpcss-css'  href='http://www.kdnuggets.com/wp-content/plugins/single-latest-posts-lite/core/css/default_style.css?ver=3.8.8' type='text/css' media='all' />
+<!--/.main_wrapper--></div>
+</body>
+</html>
+<!-- Dynamic page generated in 0.410 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-06-14 20:00:55 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

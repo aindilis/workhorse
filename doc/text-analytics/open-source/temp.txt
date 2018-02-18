@@ -1,0 +1,236 @@
+
+1.QDA Miner Lite
+
+QDA Miner Lite is a free computer assisted qualitative analysis software from
+Provalis Research. It can be used for the analysis of textual data such as
+interview and news transcripts, open ended responses, as well as for the
+analysis of still images. It offers basic CAQDAS features such as, importation
+of documents from plain text, RTF, HTML, PDF as well as data stored in Excel,
+MS Access, CSV, tab delimited text files. Features also include importation
+from other qualitative coding software, intuitive coding using codes organized
+in a tree structure, ability to add comments (or memos) to coded segments,
+cases or the whole project.
+
+The software also has functionalities for fast Boolean text search tool for
+retrieving and coding text segments, code frequency analysis with bar chart,
+pie chart and tag clouds, coding retrieval with Boolean and proximity
+operators, export tables to XLS, Tab Delimited, CSV formats, and Word format
+and export graphs to BMP, PNG, JPEG, WMF formats.
+
+Provalis Research
+
+QDA Miner Lite
+
+QDA Miner Lite
+
+2.GATE
+
+GATE is the General Architecture for Text Engineering. This is an open source
+toolbox for natural language processing and language engineering. Used for all
+sorts of language processing tasks and applications, including voice of the
+customer, cancer research, drug research, decision support, recruitment, web
+mining, information extraction and semantic annotation.
+
+GATE includes an information extraction system called ANNIE which is known as A
+Nearly-New Information Extraction System. This is a set of modules comprising a
+tokenizer, a gazetteer, a sentence splitter, a part of speech tagger, a named
+entities transducer and a coreference tagger. ANNIE can be used as-is to
+provide basic information extraction functionality, or provide a starting point
+for more specific tasks.
+Languages currently handled in GATE are English, Spanish, Chinese, Arabic,
+Bulgarian, French, German, Hindi, Italian, Cebuano, Romanian, Russian.
+
+GATE
+
+GATE
+
+GATE
+
+3.TAMS Analyzer
+
+TAMS Analyzer for Macintosh OS X is a convention for identifying themes in
+texts such as web pages, interviews, field notes. It was designed for use in
+ethnographic and discourse research. TAMS Analyzer is a program that works with
+TAMS to assign ethnographic codes to passages of a text just by selecting the
+relevant text and double clicking the name of the code on a list. It then
+allows to extract, analyze, and save coded information.
+
+TAMS Analyzer
+
+TAMS Analyzer
+
+TAMS Analyzer
+
+4.Carrot2
+
+Carrot2 does text and search results clustering frame work. It can
+automatically cluster small collections of documents, search results or
+document abstracts into thematic categories. Its an open source search results
+Clustering Engine. Apart from two specialized search results clustering
+algorithms, Carrot also offers ready to use components for fetching search
+results from various sources such as including GoogleAPI, Bing API, eTools Meta
+Search, Lucene, SOLR, and more.
+
+Carrot2
+
+Carrot2
+
+Carrot2
+
+5.CAT
+
+CAT is a free service of the Qualitative Data Analysis Program, which
+efficiently code raw text data sets, annotate coding with shared memos, manage
+team coding permissions via the Web, create unlimited collaborator sub-accounts
+and assign multiple coders to specific tasks. CAT, easily measure inter-rater
+reliability, adjudicate valid & invalid coder decisions,report validity by
+dataset, code or coder and export coding in RTF, CSV or XML format.
+
+CAT
+
+6.KH Coder
+
+[INS::INS]
+
+KH Coder is an application for quantitative content analysis, text mining or
+corpus linguistics. It can handle Japanese, English, French, German, Italian,
+Portuguese and Spanish language data.
+By inputting the raw texts the searching and statistical analysis
+functionalities like KWIC, collocation statistics, co-occurrence networks,
+self-organizing map, multidimensional scaling, cluster analysis and
+correspondence analysis can be utilized.KH Coder provides various kinds of
+search and statistical analysis functions using back-end tools such as Stanford
+POS Tagger, Snowball stemmer, MySQL and R.
+
+KH Coder
+
+KH Coder
+
+KH Coder
+
+7.tm (Text Mining Infrastructure in R)
+
+tm package provides a framework for text mining applications within R. The tm
+package offers functionality for managing text documents, abstracts the process
+of document manipulation and eases the usage of heterogeneous text formats in
+R. The package provides native support for reading in several classic file
+formats such as plain text, PDFs, or XML files. There is also a plug-in
+mechanism to handle additional file formats. The data structures and algorithms
+can be extended to fit custom demands.
+
+tm
+
+tm
+
+tm
+
+8.Gensim
+
+Gensim is a Python library which provides scalable statistical semantics,
+analyze plain text documents for semantic structure and retrieve semantically
+similar documents. The algorithms in gensim, such as Latent Semantic Analysis,
+Latent Dirichlet Allocation or Random Projections, discover semantic structure
+of documents, by examining word statistical co-occurrence patterns within a
+corpus of training documents. These algorithms are unsupervised.
+
+[INS::INS]
+
+Gensim
+
+9.Natural Language Toolkit (NLTK)
+
+Natural Language Toolkit (NLTK) is a suite of libraries and programs for
+symbolic and statistical natural language processing (NLP) for the Python
+programming language. It provides easy-to-use interfaces to over 50 corpora and
+lexical resources such as WordNet, along with a suite of text processing
+libraries for classification, tokenization, stemming, tagging, parsing, and
+semantic reasoning. NLTK is available for Windows, Mac OS X, and Linux.
+
+Natural Language Toolkit (NLTK)
+
+10.RapidMiner
+
+RapidMiner is an integrated environment for machine learning, data mining, text
+mining, predictive analytics and business analytics. The Text Processing
+Extension provides data and text mining software.
+
+RapidMiner
+
+Rapidminer
+
+Rapidminer
+
+11.Unstructured Information Management Architecture (UIMA)
+
+Unstructured Information Management Architecture (UIMA) is a component
+framework to analyze unstructured content such as text, audio and video. This
+is originally developed by IBM.
+
+UIMA enables applications to be decomposed into components, for example
+“language identification” => “language specific segmentation” => “sentence
+boundary detection” => Each component implements interfaces defined by the
+framework and provides self describing metadata via XML descriptor files. Also
+provides capabilities to wrap components as network services, and can scale to
+very large volumes by replicating processing pipelines over a cluster of
+networked nodes.
+
+Unstructured Information Management Architecture (UIMA)
+
+UIMA
+
+UIMA
+
+12.OpenNLP
+
+The Apache OpenNLP library is a machine learning based toolkit for the
+processing of natural language text. It supports the most common NLP tasks,
+such as tokenization, sentence segmentation, part-of-speech tagging, named
+entity extraction, chunking, parsing, and coreference resolution. These tasks
+are usually required to build more advanced text processing services.
+
+OpenNLP
+
+13. KNIME Text Processing
+
+The KNIME Text processing feature enables to read, process, mine and visualize
+textual data in a convenient way. It provides functionality from natural
+language processing (NLP), text mining and information retrieval.
+
+KNIME Text processing
+
+14.Orange-Textable
+
+Textable is an add-on for Orange data mining software package. It enables users
+to build data tables on the basis of text data, by means of a flexible and
+intuitive interface. It offers in particular the following features such as
+import text data from various sources, apply systematic recoding operations,
+apply analytical processes such as segmentation and annotation, manually,
+automatically or randomly select unit subsets and build concordances and
+collocation lists.
+
+Orange Textable
+
+15.LPU
+
+LPU is Learning from Positive and Unlabeled data. LPU is a text learning or
+classification system that learns from a set of positive documents and a set of
+unlabeled documents, without labeled negative documents. This type of learning
+is different from classic text learning/classification, in which both positive
+and negative training documents are required.
+
+LPU
+
+16.Apache Mahout
+
+Apache Mahout is a project of the Apache Software Foundation with the objective
+of creating scalable machine learning algorithms that are free to use under the
+Apache license. Mahout contains implementations for clustering, categorization
+and collaborative filtering. The implementation can be on the top of Apache
+Hadoop using the map/reduce paradigm. The three use cases which are supported
+are, recommendation mining, which takes users behavior and from that tries to
+find items users might like. Clustering which takes the text documents and
+groups them into groups of topically related documents. Classification which
+learns from existing categorized documents on what documents of a specific
+category look like and assign unlabelled documents to the correct category.
+
+Apache Mahout

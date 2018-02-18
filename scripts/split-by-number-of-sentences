@@ -1,0 +1,36 @@
+#!/usr/bin/perl -w
+
+use BOSS::Config;
+use PerlLib::SwissArmyKnife;
+# use Rival::Lingua::EN::Sentence qw(get_sentences);
+
+use Lingua::EN::Sentence qw(get_sentences);
+
+$specification = q(
+	-s <sentences>	Split every number of sentences
+	<file>...	Files to split
+);
+
+my $config =
+  BOSS::Config->new
+  (Spec => $specification);
+my $conf = $config->CLIConfig;
+# $UNIVERSAL::systemdir = "/var/lib/myfrdcsa/codebases/minor/system";
+
+my $num = $conf->{'-s'} || 250;
+
+my $counter = 1;
+foreach my $file (@{$conf->{'<file>'}}) {
+  print "<$file>\n";
+  my $dir = dirname($file);
+  my $c = read_file($file);
+  my $sentences = get_sentences($c);
+  while (@$sentences) {
+    my @batch = splice @$sentences, 0, $num;
+    my $fh = IO::File->new();
+    $fh->open(">$dir/x$counter") or die "cannot\n";
+    print $fh join("\n",@batch);
+    $fh->close();
+    ++$counter;
+  }
+}

@@ -1,0 +1,205 @@
+  * Home
+  * About
+  * Contact Us
+  * Subscribe
+
+Cloud News Daily
+
+Computing data and power is moving to Cloud Computing - We'll keep you informed
+
+Apache UIMA, Hadoop Bolster IBM’s ‘Smartest Machine on Earth’ in Man vs.
+Machine Competition on Jeopardy!
+
+by Richard on February 14, 2011
+
+The Apache Software Foundation (ASF), the all-volunteer developers, stewards,
+and incubators of nearly 150 Open Source projects and initiatives, today
+announced that Apache UIMA and Apache Hadoop play key roles in the data
+intelligence and analytic proficiency of the IBM Watson supercomputer, playing
+against human champions on the TV show “Jeopardy!”.
+
+Processing 80 trillion operations (teraflops) per second, Watson will access
+200 million pages of content against 6 million logic rules to “understand” the
+nuances, meanings, and patterns in spoken human language, and compete in the
+trivia game show Jeopardy!. Contestants are presented with clues in the form of
+answers, and must phrase their responses as questions within a 5-second
+timeframe.
+
+Hundreds of Apache UIMA Annotators and thousands of algorithms help Watson
+–which runs disconnected from the Internet– access vast databases to
+simultaneously comprehend clues and formulate answers. Watson then analyzes 500
+gigabytes of preprocessed information to match potential meanings for the
+question and a potential answer to the question. Helping Watson do this is:
+
+  * Apache UIMA: standards-based frameworks, infrastructure and components that
+    facilitate the analysis and annotation of an array of unstructured content
+    (such as text, audio and video). Watson uses Apache UIMA for real-time
+    content analytics and natural language processing, to comprehend clues,
+    find possible answers, gather supporting evidence, score each answer,
+    compute its confidence in each answer, and improve contextual understanding
+    (machine learning) – all under 3 seconds.
+  * Apache Hadoop: software framework that enables data-intensive distributed
+    applications to work with thousands of nodes and petabytes of data. A
+    foundation of Cloud computing, Apache Hadoop enables Watson to access,
+    sort, and process data in a massively parallel system (90+ server cluster/
+    2,880 processor cores/16 terabytes of RAM/4 terabytes of disk storage).
+
+The Watson system uses UIMA as its principal infrastructure for component
+interoperability and makes extensive use of the UIMA-AS scale-out capabilities
+that can exploit modern, highly parallel hardware architectures. UIMA manages
+all work flow and communication between processes, which are spread across the
+cluster. Apache Hadoop manages the task of preprocessing Watson’s enormous
+information sources by deploying UIMA pipelines as Hadoop mappers, running UIMA
+analytics.
+
+“The success and influence of Watson clearly shows that open source in general,
+and specifically open source software developed and released by the ASF, is
+deeply entwined in all layers and aspects of technology,” said ASF
+President Jim Jagielski. “Apache software is part of computing and information
+technology DNA, forming complete or integral solutions to advanced problems,
+and leveraging the software under the non-restrictive Apache License allows for
+extremely rapid development of cutting edge technology.”
+
+Watson faces off against record-breaking (human) Jeopardy champions Ken
+Jennings and Brad Rutter for the $1M grand prize 14-16 February 2011. 100% of
+Watson’s winnings will be donated to charity; Rutter and Jennings have
+committed to donating 50% of their prizes.
+
+Availability
+
+All ASF products, including Apache UIMA and Apache Hadoop, are available to the
+public free of charge under the Apache Software License v2.0. Downloads,
+documentation, and related resources are available at http://www.apache.org/.
+
+About The Apache Software Foundation (ASF)
+
+Established in 1999, the all-volunteer Foundation oversees nearly one hundred
+fifty leading Open Source projects, including Apache HTTP Server — the world’s
+most popular Web server software. Through the ASF’s meritocratic process known
+as “The Apache Way,” more than 300 individual Members and 2,500 Committers
+successfully collaborate to develop freely available enterprise-grade software,
+benefiting millions of users worldwide: thousands of software solutions are
+distributed under the Apache License; and the community actively participates
+in ASF mailing lists, mentoring initiatives, and ApacheCon, the Foundation’s
+official user conference, trainings, and expo. The ASF is a US 501(3)(c)
+not-for-profit charity, funded by individual donations and corporate sponsors
+including AMD, Basis Technology, Cloudera, Facebook, Google, IBM, HP, Matt
+Mullenweg, Microsoft, SpringSource, and Yahoo!. For more information, visit 
+http://www.apache.org/.
+
+[pixy]
+
+Tagged as: Apache Software Foundation, Hadoop, IBM, Open source, UIMA
+
+Previous post: Zscaler Unveils Cloud Security for Mobile Devices
+
+Next post: Ping Identity Integrates VeriSign Identity Protection Authentication
+Service for Cloud-Based Single Sign-On
+
+iStock_000007224406XSmall.jpg
+
+  * Search Cloud News
+
+    [                    ] [Search]
+  * FileZoomer for S3
+  * 
+  * Catagories
+
+      + Advertising
+      + Amazon AWS
+      + Asia/Pacific Rim
+      + Audio
+      + Awards
+      + Big Data
+      + Business Intelligence
+      + Business Processes
+      + CaaS
+      + Cloud Computing
+      + Collaboration
+      + Computer Electronics
+      + Computer Hardware
+      + Computer Software
+      + Consulting
+      + Content Management
+      + Customer Relationship Management
+      + DaaS
+      + Disaster Recovery/Business Continuity
+      + Document Management
+      + Education
+      + EMEA
+      + Free
+      + General
+      + Government
+      + Green
+      + Guest Post
+      + Hardware
+      + High Performance Computing
+      + High Tech Security
+      + Hosting
+      + Human Resources
+      + Humor
+      + Hybrid Cloud
+      + IaaS
+      + Intellectual Property
+      + Internet Technology
+      + IT Management
+      + Legal
+      + Location
+      + M&A Activity
+      + Machine to Machine (M2M)
+      + Marketing
+      + Medical
+      + Messaging
+      + Mobile
+      + Multimedia & Internet
+      + Networking
+      + Open Source
+      + Outage Alert
+      + PaaS
+      + Partnerships
+      + Private Cloud
+      + Research
+      + Saas
+      + Security
+      + Semantic Web
+      + Social
+      + Standards
+      + Start Up
+      + Storage
+      + Telecommunications Equipment
+      + Telecommunications Industry
+      + Tools
+      + Uncategorized
+      + User Story
+      + Venture Funding
+      + Video
+      + Virtualization
+      + Voice
+      + Webinar/Webcast/Presentation
+  * Tags
+
+    Amazon EC2 Amazon Elastic Compute Cloud Amazon Web Services Android
+    AppExchange Apple Application programming interface Back Office Backup Big
+    Data Blackberry Business intelligence Cloud Computing Cloud Storage Company
+    News Customer relationship management Data center Disaster Recovery
+    Electronic health record Electronic medical record Enterprise resource
+    planning Facebook Health Care High-performance computing IBM Identity
+    management Information technology management iOS iPad iPhone iPod Touch IT
+    service management Microsoft Microsoft SharePoint Open source OpenStack
+    Payment Card Industry Data Security Standard Rackspace salesforce.com
+    Security Single sign-on Software as a service Twitter Videoconferencing
+    VMware
+  * Recent Posts
+
+      + Xerox, CHOICE Administrators Team to Deliver Health Insurance Exchanges
+        for States
+      + D & B and GlobalSoft Partner with Informatica to Power-Charge Customer
+        Master Data
+      + NextIO Gets $12.3 Million for Datacenter IO Consolidation
+      + Keating Capital Invests $5 Million in SilkRoad Technology
+      + Nuix Launches Legal Hold Solution with Technology Partner Zapproved
+
+Get smart with the Thesis WordPress Theme from DIYthemes.
+
+WordPress Admin
+
